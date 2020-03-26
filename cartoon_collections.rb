@@ -21,10 +21,11 @@ array.any? { |word| word.length > 4 }
 #false
 end
 
-def find_the_cheese(cheese_types)# code an argument here
+def find_the_cheese(cow)# code an argument here
   # the array below is here to help
 #binding.pry
   cheese_types = ["cheddar", "gouda", "camembert"]
+cheese_types.find do |dairy|
  cheese_types.include?("cheddar")
 
 end
