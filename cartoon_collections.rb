@@ -25,7 +25,7 @@ def find_the_cheese(cow)# code an argument here
   # the array below is here to help
 #binding.pry
   cheese_types = ["cheddar", "gouda", "camembert"]
-cheese_types.find do |dairy|
+cow.find do |dairy|
  cow.include?("cheddar")
 
 end
